@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 180, 234);
+    font-size: 3rem;
+    /* font-weight: bold; */
+    color: yellow;
+    min-width: 500px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    background-color: rgb(54, 180, 234);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.container p{
+    color:rgb(234, 255, 0);
+    font-size: 4rem;
+}
+#para{
+    color:rgb(204, 218, 54);
+}
